@@ -1,0 +1,30 @@
+{
+	"ImportPath": "github.com/ckeyer/shadowsocks-go",
+	"GoVersion": "go1.6",
+	"Packages": [
+		"github.com/ckeyer/shadowsocks-go/cmd/shadowsocks-server"
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/codahale/chacha20",
+			"Rev": "7be6a955b0468becb6aaa609b484b52fbf355b76"
+		},
+		{
+			"ImportPath": "github.com/shadowsocks/shadowsocks-go/shadowsocks",
+			"Comment": "1.1.4-5-ga398851",
+			"Rev": "a398851e5f114d8e37702f237897751c1a6329fb"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/blowfish",
+			"Rev": "5dc8cb4b8a8eb076cbb5a06bc3b8682c15bdbbd3"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/cast5",
+			"Rev": "5dc8cb4b8a8eb076cbb5a06bc3b8682c15bdbbd3"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/salsa20/salsa",
+			"Rev": "5dc8cb4b8a8eb076cbb5a06bc3b8682c15bdbbd3"
+		}
+	]
+}
